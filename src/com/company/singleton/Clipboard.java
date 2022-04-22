@@ -9,6 +9,7 @@ public class Clipboard {
 
   }
 
+  // only one object will create
   public static Clipboard getInstance(){
     if(instance == null){
       instance = new Clipboard();
